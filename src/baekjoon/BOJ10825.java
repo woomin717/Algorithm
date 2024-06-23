@@ -11,8 +11,6 @@ public class BOJ10825 {
 
     static int N;
     static Student[] stu;
-    static ArrayList<Student> list = new ArrayList<>();
-
     static class Student implements Comparable<Student> {
 
         String name;
@@ -58,8 +56,9 @@ public class BOJ10825 {
         for (int i = 0; i < stu.length; i++) {
             sb.append(stu[i].name).append('\n');
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
 
     }
+
 }
 
