@@ -19,7 +19,7 @@ public class BOJ14888 {
         p.solution(1, numbers[1]);
 
         sb.append(max).append('\n').append(min);
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 
     public void input() {
